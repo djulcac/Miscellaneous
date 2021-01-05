@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Socket-Test</title>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+
+            namespace = '/test';
+            var socket = io(namespace);
+
+            socket.on('connect', function() {
+                socket.emit('my_event', {data: 'connected to the SocketServer...'});
+            });
+
+            socket.on('my_response', function(msg, cb) {
+                $('#log').append('<br>' + $('<div/>').text('logs #' + msg.count + ': ' + msg.data).html());
+                if (cb)
+                    cb();
+            });
+            $('#emit').click(function(event) {
+                socket.emit('my_event', {data: $('#emit_data').val()});
+                return false;
+            });
+            $('#broadcast').click(function() {
+                console.log('broadcast 2')
+                socket.emit('my_broadcast_event', {data: $('#broadcast_data').val()});
+                return false;
+            });
+            $('#disconnect').click(function(event) {
+                socket.emit('disconnect_request');
+                return false;
+            });
+        });
+
+    </script>
+</head>
+<body  >
+
+    <h1>Socket</h1>
+        <input type="text" name="emit_data" id="emit_data" placeholder="Message">
+        <input type="submit" value="Send Message">
+        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message">
+        <input id="broadcast" type="submit" value="Send Broadcast Message">
+
+        <input type="submit" value="Disconnect Server">
+    <h2>Logs</h2>
+    <div id="log" ></div>
+</body>
+</html>
