@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Socket-Test</title>
+    <title>Flask - Socket.io</title>
     <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -39,15 +39,19 @@
     </script>
 </head>
 <body  >
-
-    <h1>Socket</h1>
-        <input type="text" name="emit_data" id="emit_data" placeholder="Message">
-        <input type="submit" value="Send Message">
-        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message">
-        <input id="broadcast" type="submit" value="Send Broadcast Message">
-
-        <input type="submit" value="Disconnect Server">
-    <h2>Logs</h2>
-    <div id="log" ></div>
+    <div class="container">
+        <h1>Socket</h1>
+        <input type="text" name="emit_data" id="emit_data" placeholder="Message" class="form-control">
+        <input id="emit" type="submit" value="Send Message" class="btn-primary">
+        <br/><br/>
+        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message" class="form-control">
+        <input id="broadcast" type="submit" value="Send Broadcast Message" class="btn-primary">
+        <br/><br/>
+        <input type="submit" value="Disconnect Server" class="btn-primary">
+        <br/><br/>
+        <h2>Logs</h2>
+        <div id="log" ></div>
+    </div>
+    
 </body>
 </html>
