@@ -13,13 +13,13 @@
             var socket = io(namespace);
 
             socket.on('connect', function() {
-                socket.emit('my_event', {data: 'connected to the SocketServer...'});
+                console.log(socket.id);
             });
 
-            socket.on('my_response', function(msg, cb) {
-                $('#log').append('<br>' + $('<div/>').text('logs #' + msg.count + ': ' + msg.data).html());
-                if (cb)
-                    cb();
+            socket.on('my_response', function(msg, callback_function) {
+                $('#log').append('<li>'+msg.data+'</li>');
+                if (callback_function)
+                    callback_function();
             });
             $('#emit').click(function(event) {
                 socket.emit('my_event', {data: $('#emit_data').val()});
@@ -47,7 +47,7 @@
         <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message" class="form-control">
         <input id="broadcast" type="submit" value="Send Broadcast Message" class="btn-primary">
         <br/><br/>
-        <input type="submit" value="Disconnect Server" class="btn-primary">
+        <input id="disconnect" type="submit" value="Disconnect Server" class="btn-primary">
         <br/><br/>
         <h2>Logs</h2>
         <div id="log" ></div>
