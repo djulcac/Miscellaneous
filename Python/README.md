@@ -24,3 +24,10 @@ Generar un grafo en base a las funciones javascript y generar un archivo drawio 
 Keywords: javascript; python; graph
 ```
 
+## Example 6 - Semantic-web
+
+Generar contendido para una web semantica
+
+```bash
+Keywords: python; protege, xml
+```
