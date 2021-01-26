@@ -31,3 +31,11 @@ Generar contendido para una web semantica
 ```bash
 Keywords: python; protege, xml
 ```
+
+## Example 7
+
+Test unitario para una api rest, bajo queries
+
+```bash
+Keywords: python; rest;
+```
