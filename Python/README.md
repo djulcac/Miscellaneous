@@ -39,3 +39,11 @@ Test unitario para una api rest, bajo queries
 ```bash
 Keywords: python; rest;
 ```
+
+## Example 8
+
+Usar pymongo
+
+```bash
+Keywords: python; pymongo; mongo;
+```
