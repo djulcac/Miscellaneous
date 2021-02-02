@@ -47,3 +47,11 @@ Usar pymongo
 ```bash
 Keywords: python; pymongo; mongo;
 ```
+
+## Example 9
+
+Página web con: Flask, socketio, bootstrap, arquitectura
+
+```bash
+Keywords: python; flask; socketio; bootstrap;
+```
