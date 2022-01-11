@@ -58,6 +58,23 @@ https://sre.google/sre-book/bibliography/#Bur06
 - https://sre.google/sre-book/effective-troubleshooting/
     - Shakespeare Has a Problem
     - App engine
+- https://sre.google/sre-book/emergency-response/
+    - Test-Induced Emergency
+    - Process-Induced Emergency
+    - All Problems Have Solutions
+- https://sre.google/sre-book/managing-incidents/
+    - ad hoc incident management practice
+    - You would sympathize, but doing so would require cognitive effort that you are holding in reserve for your job.
+    - make irrelevant but hard-to-refute comments
+    - Elements of Incident Management Process
+- https://sre.google/sre-book/postmortem-culture/
+    - Best Practice: Avoid Blame and Keep It Constructive
+    - Introducing a Postmortem Culture
+- https://sre.google/sre-book/tracking-outages/
+    - Escalator, Outalator
+- https://sre.google/sre-book/testing-reliability/
+    - Testing for Reliability
+    - If you haven't tried it, assume it's broken.
 
 ## More information - tier 2
 
