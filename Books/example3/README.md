@@ -54,6 +54,10 @@ https://sre.google/sre-book/bibliography/#Bur06
 - https://sre.google/sre-book/being-on-call/
     - Being On-Call
     - Feeling Safe
+    - A Treacherous Enemy: Operational Underload
+- https://sre.google/sre-book/effective-troubleshooting/
+    - Shakespeare Has a Problem
+    - App engine
 
 ## More information - tier 2
 
