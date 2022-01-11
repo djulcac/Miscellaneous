@@ -20,6 +20,40 @@ https://sre.google/sre-book/bibliography/#Bur06
     - Symptoms Versus Causes
     - ACLs
 - https://sre.google/sre-book/automation-at-google/
+    - python
+- https://sre.google/sre-book/release-engineering/
+    - The Role of a Release Engineer
+    - Canary testing
+        - https://www.usenix.org/system/files/login/articles/05_mcnutt.pdf
+        - https://www.optimizely.com/optimization-glossary/canary-testing/
+    - Hermetic Builds
+        - https://dl.acm.org/doi/10.1145/2854146
+        - https://www.youtube.com/watch?v=W71BTkUbdqE
+    - Continuous Build and Deployment
+        - Rapid
+        - Bazel
+            - https://bazel.build/faq.html
+    - Sisyphus
+- https://sre.google/sre-book/simplicity/
+    - Simplicity
+    - The price of reliability is the pursuit of the utmost simplicity.
+    - The Virtue of Boring
+    - I Won’t Give Up My Code!!
+        - https://www.sec.gov/litigation/admin/2013/34-70694.pdf
+    - Minimal APIs
+- https://sre.google/sre-book/practical-alerting/
+    - The Rise of Borgmon
+        - https://research.google/pubs/pub43438/
+        - https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43438.pdf
+    - Time-Series Monitoring Outside of Google
+    - Riemann, Heka, Bosun, and Prometheus
+        - https://prometheus.io/
+            - https://prometheus.io/docs/introduction/overview/
+    - Storage in the Time-Series Arena
+    - Sharding the Monitoring Topology
+- https://sre.google/sre-book/being-on-call/
+    - Being On-Call
+    - Feeling Safe
 
 ## More information - tier 2
 
