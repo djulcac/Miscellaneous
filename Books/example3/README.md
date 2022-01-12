@@ -99,9 +99,23 @@ https://sre.google/sre-book/bibliography/#Bur06
     - ? good
     - Handling Overload Errors
 - https://sre.google/sre-book/addressing-cascading-failures/
+    - Addressing Cascading Failures
+    - Preventing Server Overload
+    - !Deadline propagation
+    - Triggering Conditions for Cascading Failures
+    - Testing for Cascading Failures
+    - Immediate Steps to Address Cascading Failures
+- https://sre.google/sre-book/managing-critical-state/
+    - Managing Critical State: Distributed Consensus for Reliability
+    - CAP Theorem
+    - Motivating the Use of Consensus: Distributed Systems Coordination Failure
+    - Paxos Overview: An Example Protocol
 
 ## More information - tier 2
 
 - https://sre.google/sre-book/bibliography/#All10
     - https://www.oreilly.com/library/view/web-operations/9781449377465/
     - > Vída util, picos de trafico
+
+
+696.0528970645956
