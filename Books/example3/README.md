@@ -75,6 +75,30 @@ https://sre.google/sre-book/bibliography/#Bur06
 - https://sre.google/sre-book/testing-reliability/
     - Testing for Reliability
     - If you haven't tried it, assume it's broken.
+    - Types of Software Testing
+- https://sre.google/sre-book/software-engineering-in-sre/
+    - Software Engineering in SRE
+    - Our Solution: Intent-Based Capacity Planning
+    - Intent-Based Capacity Planning
+    - Designing at the right level
+- https://sre.google/sre-book/load-balancing-frontend/
+    - Load Balancing at the Frontend
+    - Power Isn’t the Answer
+    - Load Balancing Using DNS
+    - Load Balancing at the Virtual IP Address
+    - ? 9 ceros
+- https://sre.google/sre-book/load-balancing-datacenter/
+    - Load Balancing in the Datacenter
+    - Identifying Bad Tasks: Flow Control and Lame Ducks
+    - Load Balancing Policies
+    - ? good
+- https://sre.google/sre-book/handling-overload/
+    - Handling Overload
+    - The Pitfalls of "Queries per Second"
+    - Client request rejection probability
+    - ? good
+    - Handling Overload Errors
+- https://sre.google/sre-book/addressing-cascading-failures/
 
 ## More information - tier 2
 
