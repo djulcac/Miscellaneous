@@ -11,3 +11,12 @@ const sequelize = new Sequelize(
     }
 );
 
+async function run(){
+    console.log(new Date(),'start');
+    const [results, metadata] = await sequelize.query("select * from tem1");
+    console.log(1,results)
+    console.log(2,metadata)
+    console.log(new Date(),'end');
+}
+
+run()
