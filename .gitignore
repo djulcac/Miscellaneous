@@ -1,12 +1,5 @@
 # Custom
-log
-*.log.ipynb
-*.log.py
-*.log.json
-*.log.js
-*.log.md
-*.log.txt
-*.log.sh
+*.log.*
 
 # Java
 *.class
