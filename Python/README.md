@@ -55,3 +55,11 @@ Página web con: Flask, socketio, bootstrap, arquitectura
 ```bash
 Keywords: python; flask; socketio; bootstrap;
 ```
+
+## Example 10
+
+Una API Rest completa con flask
+
+```bash
+Keywords: python; flask;
+```

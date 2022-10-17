@@ -1,5 +1,6 @@
-# Custom
-*.log.*
+*.log.py
+*.log.db
+*.log.md
 
 # Java
 *.class
@@ -136,6 +137,6 @@ dmypy.json
 .pyre/
 
 
-# javascript
+## apache2
 
-node_modules/
+apache2/
